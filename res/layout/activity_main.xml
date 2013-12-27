@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MainLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/b_StartService"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/s_StartService" />
+
+    <Button
+        android:id="@+id/b_CloseService"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/s_CloseService" />
+
+    <Button
+        android:id="@+id/b_UserSetting"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/s_ModifyPassword" />
+    
+    <Button 
+        android:id="@+id/b_Train"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/s_Train"/>
+    
+    <Button 
+        android:id="@+id/b_SecurityLevel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/s_SecurityLevel"/>
+    
+    <Button 
+        android:id="@+id/b_AppLock"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/s_AppLock"/>
+    
+    <Button 
+        android:id="@+id/b_Test"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/s_Test"/>
+    
+    <Button 
+        android:id="@+id/b_AvoidUnstall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/s_AvoidUnstall"/>
+    
+    <Button 
+        android:id="@+id/b_SelectMusic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/s_SelectMusic"/>
+
+</LinearLayout>

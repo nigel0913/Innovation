@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VisualView">
+       <attr name="vcolor" format="enum" >
+           <enum name="blue" value="0"/>  
+           <enum name="red" value="1"/>
+       </attr>
+   </declare-styleable>
+</resources>
